@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Headersect } from './components/header/header'
 import { Main } from './components/main/main'
+import { Footer } from './components/footer/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
     <Headersect></Headersect>
     <Main></Main>
+    <Footer></Footer>
     </>
   )
 }

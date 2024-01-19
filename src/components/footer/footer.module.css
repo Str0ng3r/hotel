@@ -1,38 +1,56 @@
 .cont {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0 auto;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  height: 100%;
 }
 .best_deals {
-    color: var(--white, #FFF);
-/* h/24m */
-font-family: Montserrat;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; /* 33.6px */
-margin-bottom: 48px;
+  color: var(--white, #fff);
+  /* h/24m */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 33.6px */
+  margin-bottom: 48px;
+  margin-top: 0;
 }
 .list_deals {
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 32px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  padding: 0;
 }
 .li_deals {
-    display: flex;
-padding: 20px 24px;
-align-items: center;
-gap: 28px;
-border-radius: 16px;
-background: var(--white-35, rgba(255, 255, 255, 0.35));
-/* blur */
-backdrop-filter: blur(6px);
+    box-sizing: border-box;
+  display: flex;
+  padding: 20px 24px;
+  align-items: center;
+  gap: 28px;
+  border-radius: 16px;
+  background: var(--white-35, rgba(255, 255, 255, 0.35));
+  /* blur */
+  backdrop-filter: blur(6px);
+  min-width: 366px
 }
 .mini_img {
-    border-radius: 12px;
-
+  border-radius: 12px;
+  width: 128px;
+  height: 128px;
+}
+.mini_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.price_text {
+  margin: 0;
+}
+.hotel_text_name {
+  margin: 0;
 }
